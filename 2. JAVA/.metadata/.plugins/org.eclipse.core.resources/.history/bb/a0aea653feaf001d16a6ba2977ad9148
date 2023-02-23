@@ -1,0 +1,18 @@
+package homework;
+
+public class Ex01 {
+	public static void main(String[] args) {
+		Scanner ip = new Scanner(System.in);
+	}
+	
+	public static boolean multiples(int pCheck) {
+		if(pCheck % 2 == 0) {
+			return true;
+		}
+		else return false;
+	}
+	
+	public static void check(int pDigit) {
+		pDigit = ip.nextInt;
+	}
+}

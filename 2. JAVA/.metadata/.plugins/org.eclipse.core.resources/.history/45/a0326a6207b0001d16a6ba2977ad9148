@@ -1,0 +1,28 @@
+package homework;
+
+import java.util.Scanner;
+
+public class Ex01 {
+	public static void main(String[] args) {
+		
+		Scanner x = new Scanner(System.in);
+		int number;
+		boolean factor = false;
+		System.out.println("Enter input: ");
+		while(!factor) {
+		try {
+			number = x.nextInt();
+			factor = true;
+		} catch(Exception e){
+			
+		}
+		System.out.println("Invalid input. Re-enter: ");
+		}
+	}
+	
+	public static void check(int pDigit) {
+		
+		Boolean A = Character.isDigit(pDigit);
+		System.out.println(A);
+	}
+}

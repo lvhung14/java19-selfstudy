@@ -1,0 +1,38 @@
+package io;
+
+import java.util.Calendar;
+import java.util.Random;
+
+public class Ex03 {
+	public static void main(String[] args) {
+		
+		int wkd = Calendar.getInstance().get(Calendar.DAY_OF_WEEK);
+		
+		String wdkAsString = null;
+		
+		switch(wkd) {
+		case 1:
+			wdkAsString = "Sunday";
+			break;
+		case 2:
+			wdkAsString = "Monday";
+			break;
+		case 3:
+			wdkAsString = "Tuesday";
+			break;
+		case 4:
+			wdkAsString = "Wenesday";
+			break;
+		case 5:
+			wdkAsString = "Thursday";
+			break;
+		case 6:
+			wdkAsString = "Friday";
+			break;
+		default:
+			System.out.println("Weekday is not available!");
+			return;
+		}
+		System.out.println("wdk: " + wdkAsString);
+	}
+}

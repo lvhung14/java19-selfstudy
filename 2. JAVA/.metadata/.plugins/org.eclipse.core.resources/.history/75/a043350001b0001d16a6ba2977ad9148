@@ -1,0 +1,20 @@
+package homework;
+
+import java.util.Scanner;
+
+public class Ex01 {
+	public static void main(String[] args) {
+		Scanner hi = new Scanner(System.in);
+	}
+	
+	public static boolean multiples(int pCheck) {
+		if(pCheck % 2 == 0) {
+			return true;
+		}
+		else return false;
+	}
+	
+	public static void check(int pDigit) {
+		pDigit = ip.nextInt;
+	}
+}

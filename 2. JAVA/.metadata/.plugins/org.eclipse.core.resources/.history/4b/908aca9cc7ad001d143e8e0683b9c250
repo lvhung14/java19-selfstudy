@@ -1,0 +1,20 @@
+package io;
+
+import java.util.Calendar;
+import java.util.Random;
+
+public class Ex03 {
+	public static void main(String[] args) {
+		
+		int wkd = Calendar.getInstance().get(Calendar.DAY_OF_WEEK);
+		
+		String wdkString = null;
+		
+		switch(wkd) {
+		case 1:
+			wdkString = "Sunday";
+		case 2:
+			wdkString = "Monday";
+		}
+	}
+}
