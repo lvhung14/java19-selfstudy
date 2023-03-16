@@ -1,4 +1,4 @@
-INDEX VERSION 1.131+F:\java19-selfstudy\2. JAVA\.metadata\.plugins\org.eclipse.jdt.core
-3526617878.index
-3431915708.index
+INDEX VERSION 1.131+D:\Hung_docs\java19-selfstudy\2. JAVA\.metadata\.plugins\org.eclipse.jdt.core
 1865797976.index
+3431915708.index
+3782615860.index
