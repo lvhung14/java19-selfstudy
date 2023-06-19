@@ -1,0 +1,19 @@
+1. Đóng gói - Encapsulation:
+Khái niệm: tính chất đóng gói được thể hiện qua các access modifier. Nếu:
+- private ==> phạm vi class
+- protected/default ==> phạm vi package
+	==> Thừa kế - Inheritance
+	Khi lớp cha có phương thức, thuộc tính mang access modifier là
+	. protected: lớp con (trong cùng package hoặc ngoài package) cũng kế thừa được
+	. default: lớp con trong cùng package mới có thể kế thừa
+- public ==> everywhere
+2. Đa hình - polymorphism
++ Phương thức:
+	. Overloading:
+		Hai hay nhiều phương thức được gọi là overloading khi:
+			- Cùng class
+			- Cùng tên phương thức
+			- Khác số lượng tham số truyền vào
+			- Khác KDL truyền vào
+	
+	. Overiding

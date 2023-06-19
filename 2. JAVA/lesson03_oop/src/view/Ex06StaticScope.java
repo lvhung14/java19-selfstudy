@@ -6,7 +6,7 @@ public class Ex06StaticScope {
 	}
 	public static void add() {
 		multiply();
-		divide();
+		// divide();
 	}
 	public void subtract() {
 		multiply();
